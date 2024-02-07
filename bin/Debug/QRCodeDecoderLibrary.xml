@@ -1,0 +1,168 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>QRCodeDecoderLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:QRCodeDecoderLibrary.Finder">
+            <summary>
+            QR code finder class
+            </summary>
+        </member>
+        <member name="M:QRCodeDecoderLibrary.Finder.#ctor(System.Int32,System.Int32,System.Int32,System.Double)">
+            <summary>
+            Constructor during horizontal scan
+            </summary>
+        </member>
+        <member name="M:QRCodeDecoderLibrary.Finder.Match(System.Int32,System.Int32,System.Int32,System.Double)">
+            <summary>
+            Match during vertical scan
+            </summary>
+        </member>
+        <member name="M:QRCodeDecoderLibrary.Finder.Overlap(QRCodeDecoderLibrary.Finder)">
+            <summary>
+            Horizontal and vertical scans overlap
+            </summary>
+        </member>
+        <member name="M:QRCodeDecoderLibrary.Finder.ToString">
+            <summary>
+            Finder to string
+            </summary>
+        </member>
+        <member name="T:QRCodeDecoderLibrary.ErrorCorrection">
+            <summary>
+            QR Code error correction code enumeration
+            </summary>
+        </member>
+        <member name="F:QRCodeDecoderLibrary.ErrorCorrection.L">
+            <summary>
+            Low (01)
+            </summary>
+        </member>
+        <member name="F:QRCodeDecoderLibrary.ErrorCorrection.M">
+            <summary>
+            Medium (00)
+            </summary>
+        </member>
+        <member name="F:QRCodeDecoderLibrary.ErrorCorrection.Q">
+            <summary>
+            Medium-high (11)
+            </summary>
+        </member>
+        <member name="F:QRCodeDecoderLibrary.ErrorCorrection.H">
+            <summary>
+            High (10)
+            </summary>
+        </member>
+        <member name="T:QRCodeDecoderLibrary.EncodingMode">
+            <summary>
+            QR Code encoding modes
+            </summary>
+        </member>
+        <member name="F:QRCodeDecoderLibrary.EncodingMode.Terminator">
+            <summary>
+            Terminator
+            </summary>
+        </member>
+        <member name="F:QRCodeDecoderLibrary.EncodingMode.Numeric">
+            <summary>
+            Numeric
+            </summary>
+        </member>
+        <member name="F:QRCodeDecoderLibrary.EncodingMode.AlphaNumeric">
+            <summary>
+            Alpha numeric
+            </summary>
+        </member>
+        <member name="F:QRCodeDecoderLibrary.EncodingMode.Append">
+            <summary>
+            Append
+            </summary>
+        </member>
+        <member name="F:QRCodeDecoderLibrary.EncodingMode.Byte">
+            <summary>
+            byte encoding
+            </summary>
+        </member>
+        <member name="F:QRCodeDecoderLibrary.EncodingMode.FNC1First">
+            <summary>
+            FNC1 first
+            </summary>
+        </member>
+        <member name="F:QRCodeDecoderLibrary.EncodingMode.Unknown6">
+            <summary>
+            Unknown encoding constant
+            </summary>
+        </member>
+        <member name="F:QRCodeDecoderLibrary.EncodingMode.Unknown7">
+            <summary>
+            Unknown encoding constant
+            </summary>
+        </member>
+        <member name="F:QRCodeDecoderLibrary.EncodingMode.Kanji">
+            <summary>
+            Kanji encoding (not implemented by this software)
+            </summary>
+        </member>
+        <member name="F:QRCodeDecoderLibrary.EncodingMode.FNC1Second">
+            <summary>
+            FNC1 second
+            </summary>
+        </member>
+        <member name="F:QRCodeDecoderLibrary.EncodingMode.Unknown10">
+            <summary>
+            Unknown encoding constant
+            </summary>
+        </member>
+        <member name="F:QRCodeDecoderLibrary.EncodingMode.Unknown11">
+            <summary>
+            Unknown encoding constant
+            </summary>
+        </member>
+        <member name="F:QRCodeDecoderLibrary.EncodingMode.Unknown12">
+            <summary>
+            Unknown encoding constant
+            </summary>
+        </member>
+        <member name="F:QRCodeDecoderLibrary.EncodingMode.Unknown13">
+            <summary>
+            Unknown encoding constant
+            </summary>
+        </member>
+        <member name="F:QRCodeDecoderLibrary.EncodingMode.Unknown14">
+            <summary>
+            Unknown encoding constant
+            </summary>
+        </member>
+        <member name="F:QRCodeDecoderLibrary.EncodingMode.Unknown15">
+            <summary>
+            Unknown encoding constant
+            </summary>
+        </member>
+        <member name="P:QRCodeDecoderLibrary.QRDecoder.QRCodeVersion">
+            <summary>
+            Gets QR Code matrix version
+            </summary>
+        </member>
+        <member name="P:QRCodeDecoderLibrary.QRDecoder.QRCodeDimension">
+            <summary>
+            Gets QR Code matrix dimension in bits
+            </summary>
+        </member>
+        <member name="P:QRCodeDecoderLibrary.QRDecoder.ErrorCorrection">
+            <summary>
+            Gets QR Code error correction code (L, M, Q, H)
+            </summary>
+        </member>
+        <member name="F:QRCodeDecoderLibrary.QRDecoder.ErrCorrPercent">
+            <summary>
+            Error correction percent (L, M, Q, H)
+            </summary>
+        </member>
+        <member name="P:QRCodeDecoderLibrary.QRDecoder.MaskCode">
+            <summary>
+            Get mask code (0 to 7)
+            </summary>
+        </member>
+    </members>
+</doc>
