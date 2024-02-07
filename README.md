@@ -1,4 +1,4 @@
-Project: Dự án cửa hàng vàng bạc đá quý VBStore C# - SE104
+Project: Jewelry and gemstone store management project C# - SE104
     
 Board: https://trello.com/b/JAgA4SS8/btthcnpm
 
